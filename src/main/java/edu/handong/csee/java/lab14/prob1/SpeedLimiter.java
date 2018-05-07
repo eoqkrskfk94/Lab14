@@ -20,7 +20,9 @@ public class SpeedLimiter {
 
 			System.out.println("You are a law abiding citizen!");
 
-		}catch(Exception e) {
+		}
+		
+		catch(Exception e) {
 
 			System.out.println(e.getMessage());
 			System.out.println("You are being fined.");
